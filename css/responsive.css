@@ -1,0 +1,367 @@
+/* Responsive Styles for Keshav Poudel's Website */
+
+/* Navbar Toggle */
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #aaa;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #000;
+}
+
+/* Large Screens */
+@media screen and (min-width: 1200px) {
+    .timeline > li > .timeline-badge {
+        left: 47.5%;
+    }
+}
+
+/* Medium to Large Screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .nav > li > a {
+        margin: 30px 12px;
+        padding: 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 3.5rem;
+    }
+}
+
+/* Medium Screens */
+@media screen and (min-width: 992px) {
+    .navbar-nav {
+        float: right !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Medium to Small Screens */
+@media screen and (max-width: 992px) {
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+    
+    .navbar-toggle {
+        display: block;
+    }
+    
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    
+    .navbar-nav {
+        float: none !important;
+    }
+    
+    .navbar-nav > li {
+        float: none;
+    }
+    
+    .navbar-nav > li > a {
+        padding: 15px;
+        margin: 0;
+    }
+    
+    .collapse.in {
+        display: block !important;
+    }
+    
+    .navbar-toggle {
+        margin: 24px 16px 20px 0;
+    }
+    
+    .top-bar {
+        position: inherit;
+        background-color: #000;
+    }
+    
+    .nav > li > a {
+        padding: 15px;
+        margin: 0;
+    }
+    
+    .bread-crumb {
+        margin-top: 0;
+    }
+    
+    .post-item {
+        margin-bottom: 50px;
+    }
+    
+    .post-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .hero-btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .blog-image-right, .blog-image-left {
+        float: none;
+        margin: 20px 0;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+/* Small to Medium Screens */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .stat-left p {
+        letter-spacing: 2px;
+    }
+    
+    .stat-right p {
+        letter-spacing: 1px;
+    }
+    
+    .endorsement-item:nth-child(3n+1) {
+        clear: none;
+    }
+    
+    .endorsement-item:nth-child(2n+1) {
+        clear: both;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+    
+    .typing-text {
+        font-size: 1rem;
+    }
+}
+
+/* Small Screens */
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0 !important;
+    }
+    
+    .navbar-right {
+        float: right !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* Extra Small to Small Screens */
+@media screen and (max-width: 768px) {
+    .mb-30 {
+        margin-bottom: 30px !important;
+    }
+    
+    .side-head {
+        margin-top: 30px;
+    }
+    
+    .about-stats {
+        margin-bottom: 30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .typing-text {
+        font-size: 0.9rem;
+    }
+    
+    .parallax-content h2 {
+        font-size: 28px;
+    }
+    
+    .parallax-content p {
+        font-size: 16px;
+    }
+    
+    .modal-content {
+        margin: 30% auto;
+        width: 95%;
+    }
+    
+    .password-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .password-form input, .modal-btn {
+        width: 100%;
+    }
+}
+
+/* Extra Small Screens */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .col-xsl-5 {
+        width: 41.66666667%;
+    }
+    
+    .col-xsl-6 {
+        width: 50%;
+        float: left;
+    }
+    
+    .col-xsl-7 {
+        width: 58.33333333%;
+    }
+    
+    .hide-xsl {
+        display: none;
+    }
+    
+    .stat- right p {
+        line-height: 62px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Very Small Screens */
+@media screen and (max-width: 480px) {
+    .stat-left p {
+        letter-spacing: 6px;
+        font-size: 48px;
+    }
+    
+    .news-btn {
+        font-size: 13px;
+        padding: 10px 12px;
+    }
+    
+    .blog-img {
+        height: 220px;
+    }
+    
+    .blog-main .anchor-img {
+        margin-bottom: 30px !important;
+    }
+    
+    .navbar-brand {
+        padding: 24px 0 0 12px;
+    }
+    
+    .navbar-brand h3 {
+        font-size: 18px;
+    }
+    
+    .navbar-toggle {
+        margin: 16px 16px 16px 0;
+    }
+    
+    .hero-banner {
+        height: 100vh;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .typing-text {
+        font-size: 0.8rem;
+    }
+    
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    
+    .gallery-item {
+        margin-bottom: 15px;
+    }
+    
+    .gallery-item img {
+        height: 200px;
+    }
+    
+    .bio-image-container, .bio-gif-container {
+        margin: 15px 0;
+    }
+    
+    .bio-quote blockquote {
+        font-size: 16px;
+    }
+    
+    .blog-author {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .author-image {
+        margin: 0 auto 15px;
+    }
+    
+    .inspiration-item, .related-post {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .inspiration-item img, .related-post img {
+        margin: 0 auto 15px;
+    }
+}
+
+/* Fix for hero slider on mobile */
+@media screen and (max-width: 767px) {
+    .hero-slide {
+        background-position: center center;
+    }
+}
+
+/* Fix for modal on very small screens */
+@media screen and (max-width: 320px) {
+    .modal-content {
+        padding: 20px 15px;
+    }
+    
+    .modal-content h2 {
+        font-size: 20px;
+    }
+}
