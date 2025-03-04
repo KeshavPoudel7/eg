@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
             event.preventDefault();
             const passwordInput = document.getElementById('password').value;
             
-            if (passwordInput === 'amadablamislove') {
+            if (passwordInput === 'आमादब्लम es amor') {
                 // Correct password
                 modal.style.display = 'none';
                 
